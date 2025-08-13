@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Smart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="shortcut icon" href="Assets/travel logo.png" type="image/x-icon">
+
+    <style>
+        :root {
+            --main-orange: #ff7f27;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            color: var(--main-orange);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .banner {
+            width: 100%;
+            height: 70vh;
+            overflow: hidden;
+        }
+
+        .banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        @media (max-width: 992px) {
+
+            /* Tablets */
+            .banner img {
+                height: 50vh;
+            }
+        }
+
+        @media (max-width: 576px) {
+
+
+            .banner {
+                height: 40vh;
+            }
+        }
+
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .info-badge {
+            background-color: var(--main-orange);
+            color: white;
+            padding: 0.8rem 1rem;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: flex-start;
+            margin: 0.3rem 0;
+            font-size: 0.9rem;
+            line-height: 1.3rem;
+        }
+
+        .info-badge i {
+            margin-right: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .orange-bg {
+            background-color: var(--main-orange);
+            color: white;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <section class="mx-auto my-5 px-3 px-md-4" style="
+    max-width: 1100px;  
+    background-color: #fff8f0; 
+    color: black; 
+    padding: 30px 20px; 
+    border-radius: 12px;
+  ">
+
+
+        <section class="container my-5" id="tour-main-container">
+
+        </section>
+
+        <section class="tour-section container my-2">
+            <h2 class="section-title">List of Accommodations</h2>
+            <div id="country-container" class="row"></div>
+        </section>
+
+        <!-- Transport Section -->
+        <section class="tour-section container my-2">
+            <h2 class="section-title" style="margin-top: 3rem;">List of Transport Options</h2>
+            <div id="transport-container" class="row"></div>
+        </section>
+
+
+        <section class="tour-section container my-5" style="margin-top:4rem;">
+            <h2 class="section-title">Exciting Activities</h2>
+            <div id="activities-container" class="row g-4"></div>
+        </section>
+
+
+        <!-- Popular Tourist Attractions -->
+        <section class="container my-5">
+            <h2 class="section-title">Popular Tourist Attractions</h2>
+            <div class="row g-4">
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Assets/niagarafallreal.png" class="card-img-top" alt="Niagara Falls"
+                            style="width:100%; max-width:540px; height:312px; object-fit:cover; margin:auto;">
+                        <div class="card-body">
+                            <h6 class="mb-0" style="color:#ff7f27;">Niagara Falls</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Assets/cntowerreal.png" class="card-img-top" alt="CN Tower"
+                            style="width:100%; max-width:540px; height:312px; object-fit:cover; margin:auto;">
+                        <div class="card-body">
+                            <h6 class="mb-0" style="color:#ff7f27;">CN Tower</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Assets/banffreal.png" class="card-img-top" alt="Banff National Park"
+                            style="width:100%; max-width:540px; height:312px; object-fit:cover; margin:auto;">
+                        <div class="card-body">
+                            <h6 class="mb-0" style="color:#ff7f27;">Banff National Park</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Assets/quebecreal.png" class="card-img-top" alt="Old Quebec"
+                            style="width:100%; max-width:540px; height:312px; object-fit:cover; margin:auto;">
+                        <div class="card-body">
+                            <h6 class="mb-0" style="color:#ff7f27;">Quebec</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container my-5">
+            <h2 class="section-title text-center mb-4">Gallery</h2>
+            <div class="row g-4 align-items-start">
+
+                <!-- Left Images -->
+                <div class="col-12 col-sm-6 col-md-3 d-flex flex-column gap-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="Assets/cangall1.png" class="card-img-top" alt="Image 1"
+                            style="height:200px; object-fit:cover;">
+
+                    </div>
+                    <div class="card h-100 shadow-sm">
+                        <img src="Assets/cangall22.png" class="card-img-top" alt="Image 2"
+                            style="height:200px; object-fit:cover;">
+
+                    </div>
+                    <div class="card h-100 shadow-sm">
+                        <img src="Assets/cangall3real.png" class="card-img-top" alt="Image 3"
+                            style="height:200px; object-fit:cover;">
+
+                    </div>
+                </div>
+
+                <!-- Middle Videos -->
+                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column gap-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-img-top" style="height:200px; object-fit:cover; overflow:hidden;">
+                            <video class="w-100 h-100" style="object-fit:cover;" controls>
+                                <source src="Assets/canadavideo1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                    </div>
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-img-top" style="height:200px; object-fit:cover; overflow:hidden;">
+                            <video class="w-100 h-100" style="object-fit:cover;" controls>
+                                <source src="Assets/canadavideo2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                    </div>
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-img-top" style="height:200px; object-fit:cover; overflow:hidden;">
+                            <video class="w-100 h-100" style="object-fit:cover;" controls>
+                                <source src="Assets/canadavideo3.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right Images -->
+                <div class="col-12 col-sm-6 col-md-3 d-flex flex-column gap-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="Assets/cangall4real.png" class="card-img-top" alt="Image 4"
+                            style="height:200px; object-fit:cover;">
+
+                    </div>
+                    <div class="card h-100 shadow-sm">
+                        <img src="Assets/cangall5real.png" class="card-img-top" alt="Image 5"
+                            style="height:200px; object-fit:cover;">
+
+                    </div>
+                    <div class="card h-100 shadow-sm">
+                        <img src="Assets/cangall6real.png" class="card-img-top" alt="Image 6"
+                            style="height:200px; object-fit:cover;">
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div id="footer"></div>
+    <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="data.js"></script>
+        <script>
+            
+            const tourID = 2;
+
+            const tour = data.find(item => item.id === tourID); // fetch based on ID
+            const tourContainer = document.getElementById("tour-main-container");
+
+            if (tour) {
+                tourContainer.innerHTML = `
+            <div class="row g-4 align-items-center">
+                <div class="col-12 col-md-6">
+                    <img src="${tour.image}" alt="${tour.title}" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3 class="mb-3" style="font-weight: 700; font-size: 2.5rem; color: #ff7f27;">
+                        ${tour.title}
+                    </h3>
+                    <p style="font-weight: 500; font-size: 1rem;">
+                        ${tour.description}
+                    </p>
+                    <ul class="list-unstyled" style="font-weight: 500; font-size: 0.95rem;">
+                        <li><strong>Name:</strong> ${tour.title}</li>
+                        <li><strong>Country:</strong> ${tour.region}</li>
+                        <li><strong>Description:</strong> ${tour.description}</li>
+                        <li><strong>Price Range:</strong> ${tour.price}</li>
+                        <li><strong>Duration:</strong> ${tour.days}</li>
+                    </ul>
+                </div>
+            </div>
+        `;
+            }
+        </script>
+        <script>
+            const container = document.getElementById("country-container");
+
+            const accommodationIDs = [31,32,33];
+
+
+            const accommodations = card2.filter(item => accommodationIDs.includes(item.id));
+
+
+            container.innerHTML = "";
+
+
+            accommodations.forEach(item => {
+                const card = document.createElement("div");
+                card.className = "col-lg-4 col-md-6 col-sm-12";
+
+                card.innerHTML = `
+            <div class="card h-100 shadow-sm my-3">
+                <img src="${item.image}" class="card-img-top" alt="${item.title}">
+                <div class="card-body">
+                    <h5 class="card-title" style="color:#ff7f27; font-weight:bold;">${item.title}</h5>
+                    <p class="card-text">${item.description}</p>
+                    <p class="card-text">
+                        <span style="
+                            background-color: #ff7f27;
+                            color: white;
+                            padding: 4px 10px;
+                            border-radius: 12px;
+                            font-weight: 700;
+                            display: inline-block;
+                            box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">
+                            ${item.price}
+                        </span>
+                    </p>
+                </div>
+            </div>
+        `;
+
+                container.appendChild(card);
+            });
+
+        </script>
+
+
+
+        <script>
+
+            const transportContainer = document.getElementById("transport-container");
+
+
+            const transportData = card2.filter(item => [34, 35, 36].includes(item.id));
+
+
+            transportData.forEach(item => {
+                transportContainer.innerHTML += `
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100 shadow-sm">
+                    <img src="${item.image}" class="card-img-top" alt="${item.title}">
+                    <div class="card-body">
+                        <h5 class="card-title">${item.title}</h5>
+                        <p class="card-text">
+                            <span style="
+                                background-color: #ff7f27;
+                                color: white;
+                                padding: 4px 10px;
+                                border-radius: 12px;
+                                font-weight: 700;
+                                display: inline-block;
+                                box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">
+                                ${item.price}
+                            </span>
+                        </p>
+                        <p class="card-text">${item.description}</p>
+                        <p class="card-text">
+                            <span style="
+                                background-color: #ffcc80;
+                                color: black;
+                                padding: 3px 8px;
+                                border-radius: 10px;
+                                font-weight: 600;">
+                                ${item.time}
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        `;
+            });
+        </script>
+
+        <script>
+
+            const activitiesContainer = document.getElementById("activities-container");
+
+            const activitiesData = card2.filter(item => [37, 38, 39].includes(item.id));
+
+            activitiesData.forEach(item => {
+                activitiesContainer.innerHTML += `
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card h-100 shadow-sm">
+                <img src="${item.image}" class="card-img-top" alt="${item.title}">
+                <div class="card-body">
+                    <h5 class="card-title">${item.title}</h5>
+                    <p class="card-text" style="display:inline-block; background-color:#ff7f27; color:#fff; padding:4px 10px; border-radius:12px; font-weight:600; margin-right:5px;">
+                        Time: ${item.time || item.days}
+                    </p>
+                    <p class="card-text" style="display:inline-block; background-color:#ff7f27; color:#fff; padding:4px 10px; border-radius:12px; font-weight:600;">
+                        ${item.price}
+                    </p>
+                    <p class="card-text" style="margin-top:0.5rem;">${item.description}</p>
+                </div>
+            </div>
+        </div>
+        `;
+            });
+        </script>
+
+
+
+
+</body>
+
+</html>

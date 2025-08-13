@@ -210,6 +210,273 @@ let data = [
         "package": "Individual deal"
     }
 ];
+let card2 = [
+
+    {
+        "id": 22,
+        "region": "Canada",
+        "title": " Montreal Marriott Chateau Champlain(Hotel)",
+        "image": "Assets/hotelcanadareal.png",
+        "description": "Comfortable stay for 5 days. Early booking discounts available!",
+        "price": "Price-Rs 25,000",
+
+    },
+
+    {
+        "id": 23,
+        "region": "Canada",
+        "title": "Woody Island Resort(Resort)",
+        "image": "Assets/canadaresortreal.png",
+        "description": "Luxury beachfront resort with spa and wellness facilities for 3 days.",
+        "price": "Price-Rs 34,000",
+
+    },
+
+    {
+        "id": 24,
+        "region": "Canada",
+        "title": "Tofino(Guesthouse)",
+        "image": "Assets/canadaguestreal.png",
+        "description": "Cozy guesthouse in the city center with great local vibes for 10 days.",
+        "price": "Price-Rs 55,000",
+
+    },
+
+    {
+        "id": 25,
+        "region": "Canada",
+        "title": "Flight",
+        "image": "Assets/canadaplanereal.png",
+        "description": "Fly to Canada in comfort and style—your adventure starts in the skies!",
+        "price": "Price-Rs 23,000",
+        "time": "14-17 hours",
+
+    },
+
+    {
+        "id": 26,
+        "region": "Canada",
+        "title": "Taxi",
+        "image": "Assets/canadataxireal.png",
+        "description": "Reliable taxi service available 24/7 for quick and convenient travel.",
+        "price": "Price-Rs 30,000",
+        "time": "2 hours",
+
+    },
+
+    {
+        "id": 27,
+        "region": "Canada",
+        "title": "Bicycle Rental",
+        "image": "Assets/canadabikereal.png",
+        "description": "Explore the city on two wheels with affordable bike rentals.",
+        "price": "  Price-Rs 3,000",
+        "time": "2 hours",
+
+    },
+
+    {
+        "id": 28,
+        "region": "Canada",
+        "title": "Ice Canoeing",
+        "image": "Assets/canadaact1.png",
+        "description": "Experience thrilling waves and scenic winter landscapes in Canada.",
+        "price": " Price:Rs10,000",
+        "time": "45 min",
+
+    },
+
+    {
+        "id": 29,
+        "region": "Canada",
+        "title": "Hike on designated trails",
+        "image": "Assets/canadaact2.png",
+        "description": "Explore forests, mountains, and lakes across the diverse landscape",
+        "price": "Price:Rs 20,000",
+        "time": "1 hr 30 min",
+
+    },
+
+    {
+        "id": 30,
+        "region": "Canada",
+        "title": "Paragliding",
+        "image": "Assets/canadaact3.png",
+        "description": "Soar above majestic mountains and ancient landscapes. Feel the thrill of flying over China's breathtaking scenery!",
+        "price": "Price:Rs 12,000",
+        "time": " 15 min",
+
+    },
+
+    {
+        "id": 31,
+        "region": "United States of America",
+        "title": "White River Junction Hotel",
+        "image": "Assets/usahotel.png",
+        "description": "5 star hotel for a reason",
+        "price": "Price:Rs 250,000",
+      
+    },
+
+    {
+        "id": 32,
+        "region": "United States of America",
+        "title": "Arizona Luxury Oasis(Resort)",
+        "image": "Assets/usaresort.png",
+        "description": "There's a reason you visit every year",
+        "price": "Price:Rs 100,000",
+       
+    },
+
+    {
+        "id": 33,
+        "region": "United States of America",
+        "title": "Morrison House Hotel Old Town (GuestHouse)",
+        "image": "Assets/usaguest.png",
+        "description": "A peaceful vibe is all i ask for",
+        "price": "Price:Rs 120,000",
+       
+    },
+
+    {
+        "id": 34,
+        "region": "United States of America",
+        "title": "Flight",
+        "image": "Assets/usaplane.png",
+        "description": "Get on the flight to join us ",
+        "price": "Price:Rs 35,000",
+        "time": "24 hours",
+    },
+
+    {
+        "id": 35,
+        "region": "United States of America",
+        "title": "Bus",
+        "image": "Assets/usabus.png",
+        "description": "Hop on for the ride of joy of your life",
+        "price": "Price:Rs 15,000",
+        "time": " 12 hours",
+    },
+  {
+        "id": 36,
+        "region": "United States of America",
+        "title": "Rental Car",
+        "image": "Assets/usacar.png",
+        "description": "Be fast and hurry",
+        "price": "Price:Rs 10,000",
+        "time": " 4 hours",
+    },  {
+        "id": 37,
+        "region": "United States of America",
+        "title": "Statue of Liberty",
+        "image": "Assets/canadaact3.png",
+        "description": "Wonder why everyone is attracted to this site,visit you sure will know",
+        "price": "Price:Rs 12,000",
+        "time": " 2 hours",
+    },
+    {
+        "id": 38,
+        "region": "United States of America",
+        "title": "Paragliding",
+        "image": "Assets/canadaact3.png",
+        "description": "Soar high in the heights of America",
+        "price": "Price:Rs 7,000",
+        "time": " 15 min",
+    },{
+        "id": 39,
+        "region": "United States of America",
+        "title": "Hiking in natural parks",
+        "image": "Assets/canadaact3.png",
+        "description": "Get lost in the beauty of nature",
+        "price": "Price:Rs 15,000",
+        "days": "3 hours",
+    },
+      {
+        "id": 40,
+        "region": "Mexico",
+        "title": "Hyatt Regency Hotel",
+        "image": "Assets/canadaact3.png",
+        "description": "4 star hotel but still the best",
+        "price": "Price:Rs 100,000",
+      
+    },
+
+    {
+        "id": 41,
+        "region": "Mexico",
+        "title": "Hyatt Vivid Playa del Carmen(Resort)",
+        "image": "Assets/canadaact3.png",
+        "description": "Gives you home vibes",
+        "price": "Price:Rs 95,000",
+       
+    },
+
+    {
+        "id": 42,
+        "region": "Mexico",
+        "title": "Reforma Guest House",
+        "image": "Assets/canadaact3.png",
+        "description": "A peaceful vibe is all i ask for",
+        "price": "Price:Rs 35,000",
+       
+    },
+
+    {
+        "id": 43,
+        "region": "Mexico",
+        "title": "Taxi",
+        "image": "Assets/canadaact3.png",
+        "description": "Get on the yellow ride to join us ",
+        "price": "Price:Rs 30,000",
+        "time": "6 hours",
+    },
+
+    {
+        "id": 44,
+        "region": "Mexico",
+        "title": "Car",
+        "image": "Assets/canadaact3.png",
+        "description": "Mexico here we come",
+        "price": "Price:Rs 50,000",
+        "time": " 12 hours",
+    },
+  {
+        "id": 45,
+        "region": "Mexico",
+        "title": "Rental Bicycle",
+        "image": "Assets/canadaact3.png",
+        "description": "Be fast and quick to reach",
+        "price": "Price:Rs 5,000",
+        "time": " 4 hours",
+    },
+    {
+        "id": 46,
+        "region": "Mexico",
+        "title": "Snorkeling",
+        "image": "Assets/canadaact3.png",
+        "description": "A new experience to have in life",
+        "price": "Price:Rs 5,000",
+        "time": " 1 hour",
+    },
+    {
+        "id": 47,
+        "region": "Mexico",
+        "title": "Chicken Itza",
+        "image": "Assets/canadaact3.png",
+        "description": "What in the world join us to find out",
+        "price": "Price:Rs 15,000",
+        "time": " 2 hours",
+    },{
+        "id": 48,
+        "region": "Mexico",
+        "title": "Dolphin and Marine life",
+        "image": "Assets/canadaact3.png",
+        "description": "Sea is my whole world ",
+        "price": "Price:Rs 15,000",
+        "time": " 1 hour",
+    }
+
+]
 
 
 document.getElementById("navbarrepeat").innerHTML = ` <div class="container-fluid">
