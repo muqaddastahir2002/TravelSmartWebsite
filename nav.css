@@ -1,0 +1,102 @@
+/* navbar */
+.number:hover, .contact:hover, .icon {
+    color: orangered !important;
+}
+.contact {
+    text-decoration: none;
+}
+.list-inline-item:hover {
+    color: orangered;
+}
+.custom-link {
+    text-decoration: none;
+    color: white;
+}
+.custom-link:hover {
+    color: orangered;
+}
+#minibar, #navbar {
+    background-color: black;
+}
+.nbtn {
+    border: none;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    transition: color 0.3s ease-in;
+}
+.nav-link:hover, .brand:hover, .dropdown-item:hover{
+    color: orangered !important;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    top: 0;
+    left: 100%;
+}
+.dropdown-item:focus, 
+.dropdown-item:active {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+/* about */
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: rgba(255, 68, 0, 0.838) !important;
+    color: white;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.submitbutton {
+    border: 1px solid orangered;
+}
+.submitbutton:hover {
+    background-color: orangered;
+    color: white;
+}
+#aboutbanner {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.331)), url("Assets/about\ banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+/* feedback */
+.test-card {
+    border: none;
+}
+.star {
+    color: orangered;
+}
+.text-success {
+    color: #0f5132 !important;
+}
+.progress {
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+.progress-bar {
+    background-color: #198754;
+    border-radius: 5px;
+}
+.btn-outline-success {
+    border-color: #198754;
+    color: #198754;
+}
+.btn-outline-success:hover {
+    background-color: #198754;
+    color: white;
+}

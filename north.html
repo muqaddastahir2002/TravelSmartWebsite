@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North America</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="north.css">
+    <link rel="shortcut icon" href="Assets/travel logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div id="navbarrepeat"></div>
+
+    <section class="banner">
+        <div class="banner-over">
+            <div class="banner-text">North America</div>
+        </div>
+
+    </section>
+    <section class="tour-head">
+        <div class="tour-title">Tours</div>
+    </section>
+
+    <div class="sort-container my-3 text-end me-5">
+        <label for="sortSelect" class="fw-bold me-2">Sort by:</label>
+        <select id="sortSelect" class="form-select text-center w-auto d-inline-block rounded-3">
+            <option value="popularity">Popularity</option>
+            <option value="price">Price</option>
+            <option value="alphabetical">Alphabetical</option>
+        </select>
+    </div>
+
+    <section class="tour-section container my-2">
+        <div id="cards-container" class="row"></div>
+    </section>
+
+
+    <section style="background:#ffe5b4; padding:1rem; border-radius:8px;">
+        <h2 style="text-align:center; margin-bottom:1rem; font-weight:700; letter-spacing:1px;">
+            Travel Tips for North America
+        </h2>
+        <ul style="list-style:none; padding:0; max-width:500px; margin:0 auto; line-height:1.6; font-size:1.1rem;">
+            <li style="margin-bottom:0.8rem;">
+                <strong>Keep documents handy.</strong> Stay organized for smooth travels.
+            </li>
+            <li style="margin-bottom:0.8rem;">
+                <strong>Dress in layers.</strong> Be ready for changing weather.
+            </li>
+            <li style="margin-bottom:0.8rem;">
+                <strong>Go contactless.</strong> Safe, fast payments everywhere.
+            </li>
+            <li style="margin-bottom:0.8rem;">
+                <strong>Stay connected.</strong> Grab a local SIM or data plan.
+            </li>
+            <li>
+                <strong>Respect customs.</strong> Embrace local culture with open mind.
+            </li>
+        </ul>
+    </section>
+
+
+
+    <section class="gallery">
+        <div class="gallery-title">Gallery</div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row g-3">
+            <div class="col-6 col-md-4">
+                <img src="Assets/gallery 1.jpg" alt="Image 1" class="img-fluid gallery-img" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="Assets/gallery 2.jpg" alt="Image 2" class="img-fluid gallery-img" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="Assets/gallery 3.jpg" alt="Image 3" class="img-fluid gallery-img" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="Assets/gallery real 4.jpg " alt="Image 4" class="img-fluid gallery-img" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="Assets/gallery real 5.jpg" alt="Image 5" class="img-fluid gallery-img" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="Assets/gallery real 6.jpg" alt="Image 6" class="img-fluid gallery-img" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="Assets/gallery real 7.jpg" alt="Image 7" class="img-fluid gallery-img" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="Assets/gallery real 8.jpg" alt="Image 8" class="img-fluid gallery-img" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="Assets/gallery real 9.jpg" alt="Image 9" class="img-fluid gallery-img" />
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="data.js"></script>
+
+<!-- sort javascript -->
+<script>
+const categories = [
+    {
+        id: 1,
+        region: "North America",
+        title: "Canada-North America",
+        image: "Assets/canada north.jpg",
+        description: "Amidst endless forests and shimmering lakes Canada whispers tales of wonder where natures grace and vibrant spirit entwine in perfect harmony",
+        price: "Rs 50000",
+        days: "5 days",
+        package: "Individual deal",
+        popularity: 2
+    },
+    {
+        id: 2,
+        region: "North America",
+        title: "United States-North America",
+        image: "Assets/united states.jpg",
+        description: "Where vast horizons meet endless dreams — the USA invites you to chase the stars and discover freedoms endless melody",
+        price: "Rs 30000",
+        days: "3 days",
+        package: "Family deal",
+        popularity: 3
+    },
+    {
+        id: 3,
+        region: "North America",
+        title: "Mexico-North America",
+        image: "Assets/mexico real.jpg",
+        description: "Dive into Mexico’s vibrant colors, sun-kissed beaches, and timeless fiestas — where every moment is a celebration of life and culture!",
+        price: "Rs 45000",
+        days: "4 days",
+        package: "Individual deal",
+        popularity: 1
+    },
+];
+
+function renderCards(arr) {
+    const container = document.getElementById("cards-container");
+    container.innerHTML = "";
+    arr.forEach(trip => {
+        container.innerHTML += `
+        <div class="col-md-4 d-flex">
+            <div class="card json shadow border-0 my-4 flex-fill">
+                <div style="position: relative;">
+                    <img src="${trip.image}" class="card-img-top" alt="${trip.title}">
+                    <div style="
+                        position: absolute;
+                        top: 10px;
+                        left: 10px;
+                        background: #ff7f27;
+                        color: white;
+                        padding: 5px 10px;
+                        font-size: 0.85rem;
+                        font-weight: 600;
+                        border-radius: 5px;
+                        text-transform: uppercase;
+                        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+                    ">
+                        ${trip.package}
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="trip-title" style="color:#ff7f27; font-weight:bold;">${trip.title}</h5>
+                    <p class="trip-text" style="margin-bottom:0.25rem;">${trip.description}</p>
+                    <p style="margin-bottom: 0.25rem;"><strong>Duration:</strong> ${trip.days}</p>
+                    <p style="margin-bottom: 0.25rem;"><strong>Price:</strong> ${trip.price}</p>
+                    <button class="btn" style="
+                        background-color: #ff7f27;
+                        color: white;
+                        font-weight: bold;
+                        border-radius: 12px;
+                        padding: 8px 16px;
+                        margin-top:11px;
+                        border: none;
+                        cursor: pointer;
+                        transition: background-color 0.3s ease;
+                    "
+                    onmouseover="this.style.backgroundColor='#e56700'"
+                    onmouseout="this.style.backgroundColor='#ff7f27'">View More</button>
+                </div>
+            </div>
+        </div>
+        `;
+    });
+}
+
+// Initial render
+renderCards(categories);
+
+// Sort functionality
+document.getElementById("sortSelect").addEventListener("change", (e) => {
+    const value = e.target.value;
+    let sorted = [...categories];
+    if (value === "price") sorted.sort((a, b) => parseInt(a.price.replace(/\D/g,'')) - parseInt(b.price.replace(/\D/g,'')));
+    else if (value === "popularity") sorted.sort((a, b) => b.popularity - a.popularity);
+    else if (value === "alphabetical") sorted.sort((a, b) => a.title.localeCompare(b.title));
+    renderCards(sorted);
+});
+</script>
+
+    <script>
+
+        //North Page Data
+
+        const selectedRegion = "North America"; // or dynamically from user input
+
+        const filteredData = data.filter(trip => trip.region === selectedRegion);
+        let container = document.getElementById("cards-container");
+        container.innerHTML = "";
+
+        filteredData.forEach(trips => {
+            container.innerHTML += `
+    <div class="col-md-4 d-flex">
+  <div class="card json shadow border-0 my-4 flex-fill">
+        <div style="position: relative;">
+          <img src="${trips.image}" class="card-img-top" alt="${trips.title}">
+          <div style="
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: #ff7f27;
+            color: white;
+            padding: 5px 10px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border-radius: 5px;
+            text-transform: uppercase;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+          ">
+            ${trips.package}
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="trip-title" style="color:#ff7f27; font-weight:bold;">${trips.title}</h5>
+          <p class="trip-text style="margin-bottom:0.25 rem;">${trips.description}</p>
+          <p style="margin-bottom: 0.25rem;"><strong>Duration:</strong> ${trips.days}</p>
+          <p style="margin-bottom: 0.25rem;"><strong>Price:</strong> ${trips.price}</p>
+          <button class="btn" style="
+            background-color: #ff7f27;
+            color: white;
+            font-weight: bold;
+            border-radius: 12px;
+            padding: 8px 16px;
+            margin-top:11px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          "
+          onmouseover="this.style.backgroundColor='#e56700'"
+          onmouseout="this.style.backgroundColor='#ff7f27'">View More</button>
+        </div>
+      </div>
+      
+    </div>
+    `;
+        });
+    </script>
+
+</body>
+
+</html>

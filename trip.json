@@ -1,0 +1,104 @@
+{
+  "destinations": [
+    { "destination": "Paris", "country": "France", "activity": "Sightseeing" },
+    { "destination": "Bali", "country": "Indonesia", "activity": "Beach" },
+    { "destination": "Dubai", "country": "United Arab Emirates", "activity": "Shopping" },
+    { "destination": "Tokyo", "country": "Japan", "activity": "Cultural Tour" },
+    { "destination": "Rome", "country": "Italy", "activity": "Historical Sites" },
+    { "destination": "Maldives", "country": "Maldives", "activity": "Beach" },
+    { "destination": "New York", "country": "USA", "activity": "City Tour" },
+    { "destination": "Bangkok", "country": "Thailand", "activity": "Nightlife" },
+    { "destination": "Istanbul", "country": "Turkey", "activity": "Cultural Tour" },
+    { "destination": "Sydney", "country": "Australia", "activity": "Beach" }
+  ],
+  "trips": [
+    {
+      "name": "Bali Adventure",
+      "country": "Indonesia",
+      "description": "Explore Bali's beaches, temples, and culture with exciting activities.",
+      "price": 799,
+      "discount": "20% OFF",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "activities": ["🏖", "🪂", "✈️"],
+      "details": "This Bali package includes 5 nights stay, airport transfers, guided tours, and adventure sports like paragliding. You'll also enjoy local cuisine, cultural performances, and sunset cruises."
+    },
+    {
+      "name": "Swiss Alps",
+      "country": "Switzerland",
+      "description": "Snow-capped mountains, scenic train rides, and cozy stays.",
+      "price": 1299,
+      "discount": "15% OFF",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+      "activities": ["⛷", "🚞", "🏔"],
+      "details": "Enjoy 7 days in the Swiss Alps with luxury stays, ski passes, and guided mountain tours. Includes scenic Glacier Express train ride, hot springs, and authentic Swiss dining."
+    },
+    {
+      "name": "Dubai Luxury Tour",
+      "country": "UAE",
+      "description": "Desert safaris, luxury shopping, and modern marvels.",
+      "price": 999,
+      "discount": "10% OFF",
+      "image": "https://images.unsplash.com/photo-1505731132164-cca3c31c0c9a",
+      "activities": ["🐪", "🏙", "🛍"],
+      "details": "This 4-night Dubai tour includes desert safari, city tour, Burj Khalifa tickets, premium accommodation, and a dhow cruise dinner."
+    },
+    {
+      "name": "Tokyo Explorer",
+      "country": "Japan",
+      "description": "A perfect blend of tradition and technology in the heart of Japan.",
+      "price": 1150,
+      "discount": "18% OFF",
+      "image": "https://images.unsplash.com/photo-1505064112176-9a6f4c1a3b94",
+      "activities": ["🏯", "🍣", "🚄"],
+      "details": "Spend 6 days in Tokyo visiting historic temples, enjoying sushi workshops, and riding the famous bullet train to nearby cities."
+    },
+    {
+      "name": "Santorini Escape",
+      "country": "Greece",
+      "description": "Romantic sunsets, whitewashed houses, and the deep blue sea.",
+      "price": 890,
+      "discount": "12% OFF",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "activities": ["⛵", "🍷", "🏖"],
+      "details": "Experience 5 nights in Santorini with sea-view accommodation, wine tasting tours, and a sunset cruise to Oia."
+    },
+    {
+      "name": "New York City Lights",
+      "country": "USA",
+      "description": "The city that never sleeps with endless attractions.",
+      "price": 1050,
+      "discount": "25% OFF",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",
+      "activities": ["🗽", "🎭", "🛍"],
+      "details": "Enjoy 5 days in NYC with visits to Times Square, Broadway shows, Statue of Liberty, and top shopping districts."
+    }
+  ],
+ "accommodations": [
+    {
+      "name": "Ocean View Resort",
+      "type": "Resort",
+      "rating": 4.7,
+      "amenities": ["Free WiFi", "Pool", "Spa", "Breakfast Included"],
+      "location": "Beachfront, Bali",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "name": "City Lights Hotel",
+      "type": "Hotel",
+      "rating": 4.3,
+      "amenities": ["Gym", "Bar", "Airport Shuttle", "Pet Friendly"],
+      "location": "Downtown, Dubai",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "name": "Mountain View Hostel",
+      "type": "Hostel",
+      "rating": 4.0,
+      "amenities": ["Free Parking", "Shared Kitchen", "Laundry"],
+      "location": "Alps, Switzerland",
+      "image": "https://images.unsplash.com/photo-1504595403659-9088ce801e29?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}
+
+

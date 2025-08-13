@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.number:hover,
+.contact:hover,
+.icon {
+    color: orangered !important;
+}
+
+.contact {
+    text-decoration: none;
+}
+
+.list-inline-item:hover {
+    color: orangered;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: white;
+}
+
+.custom-link:hover {
+    color: orangered;
+}
+
+#containernavbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    z-index: 1040;
+}
+
+#minibar.scrolled,#navbar.scrolled,
+#containernavbar.scrolled {
+    background: rgba(0, 0, 0, 0.559);
+    transition: background-color 0.3s ease;
+}
+
+.navbar-toggler.scrolled{
+    background-color: white !important;
+    border-radius: 4px;
+}
+.nbtn {
+    border: none;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    transition: color 0.3s ease-in;
+}
+
+.nav-link:hover,
+.brand:hover,
+.dropdown-item:hover {
+    color: orangered !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+    top: 0;
+    left: 100%;
+}
+
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    filter: brightness(60%);
+}
+
+#bannerSlider {
+    position: relative;
+}
+
+#bannerSlider img {
+    height: 110vh;
+    object-fit: cover;
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity 4s ease-in-out !important;
+}
+
+#carouselExample {
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+    .banner-text {
+        white-space: normal;
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators {
+    display: none !important;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+}
+
+.side-image {
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.605);
+    border-radius: 100%;
+}
+
+@media (max-width: 1024px) {
+    .image-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+.gentle-bounce {
+    display: inline-block;
+    animation: gentleBounce 3s ease-in-out infinite;
+}
+
+@keyframes gentleBounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.nobtn{
+    background-color: orangered;
+    text-decoration: none;
+}
+
+.nobtn:hover{
+    border: 1px solid orangered;
+    color: orangered !important;
+    background-color: white;
+}
+
+.bg {
+    background-color: rgb(221, 221, 221);
+}
+
+.ticker {
+    display: inline-flex;
+    animation: tickerMove 40s linear infinite !important;
+}
+
+.ticker:hover {
+    animation-play-state: paused !important;
+}
+
+.ticker-item {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.ticker-item i {
+    margin-right: 8px;
+    color: #fff;
+}
+
+@keyframes tickerMove {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.destination {
+    text-decoration: none;
+    color: orangered;
+    display: inline-block;
+    transition: transform 0.3s ease-in;
+}
+
+.destination:hover {
+    transform: scale(1.02);
+}
+
+.desty {
+    display: inline-block;
+    transition: transform 0.3s ease-in;
+}
+
+.desty:hover {
+    transform: scale(1.02);
+}
+
+.customer {
+    border: 2px solid orangered;
+}
+
+.test-card {
+    border: none;
+}
+
+.star {
+    color: orangered;
+}
+
+.list-inline-item:hover {
+    color: orangered;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: white;
+}
+
+.custom-link:hover {
+    color: orangered;
+}
+
+.jsoncard {
+    transition: transform 0.3s ease-in;
+}
+
+.jsoncard:hover {
+    transform: scale(1.02);
+}
