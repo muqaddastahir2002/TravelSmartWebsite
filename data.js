@@ -190,7 +190,7 @@ let data = [
         "id": 2,
         "region": "North America",
         "title": "United States of America",
-        "image": "Assets/united states.jpg.jpeg",
+        "image": "Assets/united states.jpg",
         "description": "Where vast horizons meet endless dreams — the USA invites you to chase the stars and discover freedoms endless melody",
         "price": "Rs 30000",
         "days": "3 days",
@@ -398,7 +398,7 @@ let card2 = [
         "image": "Assets/hotelcanadareal.png",
         "description": "Comfortable stay for 5 days. Early booking discounts available!",
         "price": "Price-Rs 25,000",
-        "category": "Accomodation"
+        "category":"Accomodation"
 
     },
 
@@ -409,7 +409,7 @@ let card2 = [
         "image": "Assets/canadaresortreal.png",
         "description": "Luxury beachfront resort with spa and wellness facilities for 3 days.",
         "price": "Price-Rs 34,000",
-        "category": "Accomodation"
+        "category":"Accomodation"
 
     },
 
@@ -420,19 +420,19 @@ let card2 = [
         "image": "Assets/canadaguestreal.png",
         "description": "Cozy guesthouse in the city center with great local vibes for 10 days.",
         "price": "Price-Rs 55,000",
-        "category": "Accomodation"
+        "category":"Accomodation"
 
     },
 
     {
         "id": 25,
         "region": "Canada",
-        "title": "Flight",
+        "title": "Flight", 
         "image": "Assets/canadaplanereal.png",
         "description": "Fly to Canada in comfort and style—your adventure starts in the skies!",
         "price": "Price-Rs 23,000",
         "time": "14-17 hours",
-        "category": "Transport options"
+        "category":"Transport options"
 
     },
 
@@ -444,7 +444,7 @@ let card2 = [
         "description": "Reliable taxi service available 24/7 for quick and convenient travel.",
         "price": "Price-Rs 30,000",
         "time": "2 hours",
-        "category": "Transport options"
+        "category":"Transport options"
 
     },
 
@@ -456,7 +456,7 @@ let card2 = [
         "description": "Explore the city on two wheels with affordable bike rentals.",
         "price": "  Price-Rs 3,000",
         "time": "2 hours",
-        "category": "Transport options"
+        "category":"Transport options"
 
     },
 
@@ -468,7 +468,7 @@ let card2 = [
         "description": "Experience thrilling waves and scenic winter landscapes in Canada.",
         "price": " Price:Rs10,000",
         "time": "45 min",
-        "category": "Activities"
+        "category":"Activities"
 
     },
 
@@ -480,7 +480,7 @@ let card2 = [
         "description": "Explore forests, mountains, and lakes across the diverse landscape",
         "price": "Price:Rs 20,000",
         "time": "1 hr 30 min",
-        "category": "Activities"
+        "category":"Activities"
 
     },
 
@@ -492,7 +492,7 @@ let card2 = [
         "description": "Soar above majestic mountains and ancient landscapes. Feel the thrill of flying over China's breathtaking scenery!",
         "price": "Price:Rs 12,000",
         "time": " 15 min",
-        "category": "Activities"
+       "category":"Activities"
 
     },
 
@@ -501,7 +501,7 @@ let card2 = [
         "region": "Canada",
         "title": "Niagara Falls",
         "image": "Assets/niagarafallreal.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
 
@@ -510,7 +510,7 @@ let card2 = [
         "region": "Canada",
         "title": "CN Tower",
         "image": "Assets/cntowerreal.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
 
@@ -519,7 +519,7 @@ let card2 = [
         "region": "Canada",
         "title": "Banff National Park",
         "image": "Assets/banffreal.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
 
@@ -528,7 +528,7 @@ let card2 = [
         "region": "Canada",
         "title": "Quebec",
         "image": "Assets/quebecreal.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
 
@@ -539,8 +539,8 @@ let card2 = [
         "image": "Assets/usahotel.png",
         "description": "5 star hotel for a reason",
         "price": "Price:Rs 250,000",
-        "category": "Accomodation"
-
+        "category":"Accomodation"
+      
     },
 
     {
@@ -550,8 +550,8 @@ let card2 = [
         "image": "Assets/usaresort.png",
         "description": "There's a reason you visit every year",
         "price": "Price:Rs 100,000",
-        "category": "Accomodation"
-
+         "category":"Accomodation"
+       
     },
 
     {
@@ -561,8 +561,8 @@ let card2 = [
         "image": "Assets/usaguest.png",
         "description": "A peaceful vibe is all i ask for",
         "price": "Price:Rs 120,000",
-        "category": "Accomodation"
-
+         "category":"Accomodation"
+       
     },
 
     {
@@ -573,7 +573,7 @@ let card2 = [
         "description": "Get on the flight to join us ",
         "price": "Price:Rs 35,000",
         "time": "24 hours",
-        "category": "Transport options"
+         "category":"Transport options"
     },
 
     {
@@ -584,9 +584,9 @@ let card2 = [
         "description": "Hop on for the ride of joy of your life",
         "price": "Price:Rs 15,000",
         "time": " 12 hours",
-        "category": "Transport options"
+        "category":"Transport options"
     },
-    {
+  {
         "id": 36,
         "region": "United States of America",
         "title": "Rental Car",
@@ -594,8 +594,8 @@ let card2 = [
         "description": "Be fast and hurry",
         "price": "Price:Rs 10,000",
         "time": " 4 hours",
-        "category": "Transport options"
-    }, {
+        "category":"Transport options"
+    },  {
         "id": 37,
         "region": "United States of America",
         "title": "Statue of Liberty",
@@ -603,7 +603,7 @@ let card2 = [
         "description": "Wonder why everyone is attracted to this site,visit you sure will know",
         "price": "Price:Rs 12,000",
         "time": " 2 hours",
-        "category": "Activities"
+        "category":"Activities"
     },
     {
         "id": 38,
@@ -613,8 +613,8 @@ let card2 = [
         "description": "Soar high in the heights of America",
         "price": "Price:Rs 7,000",
         "time": " 15 min",
-        "category": "Activities"
-    }, {
+        "category":"Activities"
+    },{
         "id": 39,
         "region": "United States of America",
         "title": "Hiking in natural parks",
@@ -622,7 +622,7 @@ let card2 = [
         "description": "Get lost in the beauty of nature",
         "price": "Price:Rs 15,000",
         "days": "3 hours",
-        "category": "Activities"
+        "category":"Activities"
     },
 
     {
@@ -630,164 +630,163 @@ let card2 = [
         "region": "United States of America",
         "title": "Statue of Liberty",
         "image": "Assets/gallery real 9.jpg",
-        "category": "Popular"
+       "category":"Popular"
 
     },
-
+    
     {
         "id": 54,
         "region": "United States of America",
         "title": "Central Park",
         "image": "Assets/centralpark.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
-
+    
     {
         "id": 55,
         "region": "United States of America",
         "title": "Walt Disney World",
         "image": "Assets/disney.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
-
+    
     {
         "id": 56,
         "region": "United States of America",
         "title": "Golden Gate Bridge",
         "image": "Assets/golden bridge.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
-
-    {
+    
+      {
         "id": 40,
         "region": "Mexico",
         "title": "Hyatt Regency Hotel",
-        "image": "Assets/canadaact3.png",
+        "image": "Assets/Hyatt Regency Hotel.png",
         "description": "4 star hotel but still the best",
         "price": "Price:Rs 100,000",
-        "category": "Accomodation"
-
+          "category":"Accomodation"
+      
     },
 
     {
         "id": 41,
         "region": "Mexico",
         "title": "Hyatt Vivid Playa del Carmen(Resort)",
-        "image": "Assets/canadaact3.png",
+        "image": "Assets/Hyatt (Resort).png",
         "description": "Gives you home vibes",
         "price": "Price:Rs 95,000",
-        "category": "Accomodation"
-
+         "category":"Accomodation"
+       
     },
 
     {
         "id": 42,
         "region": "Mexico",
         "title": "Reforma Guest House",
-        "image": "Assets/canadaact3.png",
+        "image": "Assets/Reforma Guest House.png",
         "description": "A peaceful vibe is all i ask for",
         "price": "Price:Rs 35,000",
-        "category": "Accomodation"
-
+         "category":"Accomodation"
+       
     },
 
     {
         "id": 43,
         "region": "Mexico",
         "title": "Taxi",
-        "image": "Assets/canadaact3.png",
+        "image": "Assets/canadataxireal.png",
         "description": "Get on the yellow ride to join us ",
         "price": "Price:Rs 30,000",
         "time": "6 hours",
-        "category": "Transport options"
+         "category":"Transport options"
     },
 
     {
         "id": 44,
         "region": "Mexico",
         "title": "Car",
-        "image": "Assets/canadaact3.png",
+        "image": "Assets/usacar.png",
         "description": "Mexico here we come",
         "price": "Price:Rs 50,000",
         "time": " 12 hours",
-        "category": "Transport options"
+           "category":"Transport options"
     },
-    {
+  {
         "id": 45,
         "region": "Mexico",
         "title": "Rental Bicycle",
-        "image": "Assets/canadaact3.png",
+        "image": "Assets/canadabikereal.png",
         "description": "Be fast and quick to reach",
         "price": "Price:Rs 5,000",
         "time": " 4 hours",
-        "category": "Transport options"
+           "category":"Transport options"
     },
     {
         "id": 46,
         "region": "Mexico",
         "title": "Snorkeling",
-        "image": "Assets/canadaact3.png",
+        "image": "Assets/snorkling.png",
         "description": "A new experience to have in life",
         "price": "Price:Rs 5,000",
         "time": " 1 hour",
-        "category": "Activities"
+        "category":"Activities"
     },
     {
         "id": 47,
         "region": "Mexico",
         "title": "Chicken Itza",
-        "image": "Assets/canadaact3.png",
+        "image": "Assets/chicken itza.png",
         "description": "What in the world join us to find out",
         "price": "Price:Rs 15,000",
         "time": " 2 hours",
-        "category": "Activities"
-    }, {
+        "category":"Activities"
+    },{
         "id": 48,
         "region": "Mexico",
         "title": "Dolphin and Marine life",
-        "image": "Assets/canadaact3.png",
+        "image": "Assets/dolphin.png",
         "description": "Sea is my whole world ",
         "price": "Price:Rs 15,000",
         "time": " 1 hour",
-        "category": "Activities"
+        "category":"Activities"
     },
-
-    {
+       {
         "id": 57,
         "region": "Mexico",
         "title": "Chichen Itza",
         "image": "Assets/chichen.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
-
+    
     {
         "id": 58,
         "region": "Mexico",
         "title": "Tulum",
         "image": "Assets/tulum.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
-
+    
     {
         "id": 59,
         "region": "Mexico",
         "title": "Mexico City",
         "image": "Assets/mexico city.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
-
+    
     {
         "id": 60,
         "region": "Mexico",
         "title": "Cancun",
         "image": "Assets/cancun.png",
-        "category": "Popular"
+       "category":"Popular"
 
     },
 
