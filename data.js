@@ -190,7 +190,7 @@ let data = [
         "id": 2,
         "region": "North America",
         "title": "United States of America",
-        "image": "Assets/united states.jpg",
+        "image": "Assets/united states.jpg.jpeg",
         "description": "Where vast horizons meet endless dreams — the USA invites you to chase the stars and discover freedoms endless melody",
         "price": "Rs 30000",
         "days": "3 days",
