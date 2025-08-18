@@ -244,7 +244,7 @@ document.getElementById("sortSelect").addEventListener("change", (e) => {
           <p class="trip-text style="margin-bottom:0.25 rem;">${trips.description}</p>
           <p style="margin-bottom: 0.25rem;"><strong>Duration:</strong> ${trips.days}</p>
           <p style="margin-bottom: 0.25rem;"><strong>Price:</strong> ${trips.price}</p>
-          <button class="btn" style="
+          <a href="card.html?prodId=${trips.id}" class="btn" style="
             background-color: #ff7f27;
             color: white;
             font-weight: bold;
@@ -256,7 +256,7 @@ document.getElementById("sortSelect").addEventListener("change", (e) => {
             transition: background-color 0.3s ease;
           "
           onmouseover="this.style.backgroundColor='#e56700'"
-          onmouseout="this.style.backgroundColor='#ff7f27'">View More</button>
+          onmouseout="this.style.backgroundColor='#ff7f27'">View More</a>
         </div>
       </div>
       

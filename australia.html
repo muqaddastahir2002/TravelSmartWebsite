@@ -172,19 +172,19 @@
                     <p class="trip-text" style="margin-bottom:0.25rem;">${trip.description}</p>
                     <p style="margin-bottom: 0.25rem;"><strong>Duration:</strong> ${trip.days}</p>
                     <p style="margin-bottom: 0.25rem;"><strong>Price:</strong> ${trip.price}</p>
-                    <button class="btn" style="
-                        background-color: #ff7f27;
-                        color: white;
-                        font-weight: bold;
-                        border-radius: 12px;
-                        padding: 8px 16px;
-                        margin-top:11px;
-                        border: none;
-                        cursor: pointer;
-                        transition: background-color 0.3s ease;
-                    "
-                    onmouseover="this.style.backgroundColor='#e56700'"
-                    onmouseout="this.style.backgroundColor='#ff7f27'">View More</button>
+                    <a href="card.html?prodId=${trips.id}" class="btn" style="
+            background-color: #ff7f27;
+            color: white;
+            font-weight: bold;
+            border-radius: 12px;
+            padding: 8px 16px;
+            margin-top:11px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          "
+          onmouseover="this.style.backgroundColor='#e56700'"
+          onmouseout="this.style.backgroundColor='#ff7f27'">View More</a>
                 </div>
             </div>
         </div>
